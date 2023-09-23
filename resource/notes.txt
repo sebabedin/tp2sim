@@ -1,0 +1,20 @@
+
+log_5p4
+
+teleop
+
+log_5p6
+
+ros2 topic pub --rate 1 /cmd_vel geometry_msgs/msg/Twist "{linear: {x-0.182, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 0.182}}"
+
+log_5p7pc_1
+
+ros2 topic pub --rate 1 /cmd_vel geometry_msgs/msg/Twist "{linear: {x: -0.182, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 0.182}}"
+
+log_5p7pc_2
+
+ros2 topic pub --rate 1 /cmd_vel geometry_msgs/msg/Twist "{linear: {x: 0.20, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: -0.3}}"
+
+log_5p7pc_3
+
+ros2 topic pub --rate 1 /cmd_vel geometry_msgs/msg/Twist "{linear: {x: -0.20, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: -0.3}}"
